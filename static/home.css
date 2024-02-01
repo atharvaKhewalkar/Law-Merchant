@@ -1,4 +1,38 @@
-section{
-    /* background-image: url(../static/images/1.svg); */
-    background-color: rgb(0, 0, 0);
+.header{
+    background-image: url(../static/images/1.svg);
+}
+.h-list ul li{
+    display: flex !important;
+    flex-direction: row;
+}
+.nav{
+    display: flex;
+    justify-content: space-between !important;
+    height: 8vh;
+}
+.h-search{
+    padding: 8vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+}
+.dropdown-menu ul li a{
+    text-decoration: none;
+    
+}
+.compliances{
+    background-color: rgba(123, 120, 125, 0.132); 
+    padding: 4rem; 
+    border-radius: 3rem;
+}
+.table tbody{
+    gap: 2rem;
+}
+.graph{
+    height: 50vh;
+    background-color: rgba(123, 120, 125, 0.132); 
+    padding: 4rem; 
+    margin-top: 54px;
+    border-radius: 3rem;
 }
