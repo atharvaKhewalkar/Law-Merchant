@@ -1,0 +1,30 @@
+.home{
+    background-image: url(../static/images/1.svg);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.navbar{
+    background-color: rgba(123, 120, 125, 0.132) !important; 
+    border-radius: 1rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between !important;
+    height: 8vh;
+    
+}
+.h-list ul li{
+    display: flex !important;
+    flex-direction: row;
+}
+.footer{
+    background: rgb(184, 197, 224);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
